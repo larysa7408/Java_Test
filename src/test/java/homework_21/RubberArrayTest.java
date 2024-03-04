@@ -30,9 +30,6 @@ public class RubberArrayTest {
         rubberArray.add(1,1);
         Assertions.assertEquals(2,rubberArray.get(1));
         Assertions.assertEquals(3,rubberArray.get(2));
-
-
-
     }
     @Test
     public void testRemove(){
