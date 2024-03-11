@@ -11,6 +11,10 @@ public class RubberArray {
         length = 0;
     }
 
+    public int size(){
+        return length;
+    }
+
     // Получение значения по индексу
     public int get(int idx) {
         return data[idx];
